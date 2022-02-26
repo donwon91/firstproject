@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 8px;
+        
+}
+
+.logo{
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul{   
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.logo, .nav{
+    gap: 16px
+}
+    
