@@ -1,3 +1,24 @@
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery{
+
+    width: 10%;
+    height: 10%;    
+}
+
+.i1 .i2 .i3 .i4{
+    float: left;
+    justify-content: space-between;
+}
+
+.gallery{
+    display: flex;
+}
+
+
 .header, .hero{
     background-color: #1F2937;    
 }
