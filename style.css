@@ -1,7 +1,10 @@
+.header, .hero{
+    background-color: #1F2937;    
+}
+
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
     align-items: center;
     padding: 8px;
         
@@ -38,4 +41,34 @@ a{
 .logo, .nav{
     gap: 16px
 }
-    
+   
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.secondhero{
+    font: 18px;
+    color: #E5E7EB;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.madhero{
+    height: 25em;
+    width: 35em;
+}
+
+.button1{
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+}
