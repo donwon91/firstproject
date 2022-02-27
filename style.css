@@ -1,23 +1,24 @@
-.gallery{
-    display: flex;
-    justify-content: space-between;
+.gallery, h2{
+    display: flex;    
+    justify-content: center;
+    margin: 5px;        
+    gap: 8px;
+    text-align: center;
+    padding-top: 8px;
+    
 }
 
-.gallery{
-
-    width: 10%;
-    height: 10%;    
+.gimage{    
+    width: 35em;
+    height: auto;
+}
+.gimage2{
+    
+    width: auto;
+    height: 30em;    
 }
 
-.i1 .i2 .i3 .i4{
-    float: left;
-    justify-content: space-between;
-}
-
-.gallery{
-    display: flex;
-}
-
+/* Below is Hero Styling */
 
 .header, .hero{
     background-color: #1F2937;    
