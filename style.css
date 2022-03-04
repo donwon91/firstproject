@@ -1,23 +1,37 @@
-.gallery, h2{
-    display: flex;    
+.galleryholder{
+    display: flex;
     justify-content: center;
-    margin: 5px;        
-    gap: 8px;
-    text-align: center;
-    padding-top: 8px;    
-    ;
 }
 
-.gimage2{
-    
-    width: auto;
-    height: 30em;
-    margin: 0px;            
+.gimage{
+    height: auto;
+    width: 100%;
+}
+
+.action{
+    background-color: #3882F6;
+}
+
+h2{
+    text-align: center;
+}
+
+.gallery{
+    display: flex;    
+    justify-content: center;
+    text-align: center;                
+    margin: 0;
+    padding: 0;   
+    gap: 8px;
+    width: 80%;    
+       
 }
 
 /* Below is Hero Styling */
 
 .header, .hero{
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;    
 }
 
@@ -25,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 0 5px;
         
 }
 
@@ -63,8 +77,8 @@ a{
    
 .hero{
     display: flex;
-    justify-content: space-between;
-    padding: 0;
+    justify-content: center;
+    padding: 0 25px;
     margin: 0;
     align-items: center;
 }
@@ -81,13 +95,19 @@ h1{
     margin: 0;
 }
 
-.madhero{
+.righthero{
     height: 25em;
     width: 35em;
+    margin-bottom: 16px;
 }
 
 .button1{
     background-color: #3882F6;
     border-radius: 10px;
     color: white;
+}
+.hero-left{
+    width: 40%;
+    
+
 }
