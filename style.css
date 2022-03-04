@@ -1,3 +1,29 @@
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    
+}
+
+.quotediv{
+    background-color: #E5E7EB;         
+    width: 80%;    
+    padding: 60px 0;
+    
+         
+}
+
+.quote{    
+    font-style: italic;    
+    font-size: 36px;   
+    
+    
+}
+
+
+/* Below is Gallery styling */
+
 .galleryholder{
     display: flex;
     justify-content: center;
@@ -6,10 +32,6 @@
 .gimage{
     height: auto;
     width: 100%;
-}
-
-.action{
-    background-color: #3882F6;
 }
 
 h2{
