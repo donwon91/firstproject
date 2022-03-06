@@ -1,15 +1,73 @@
+.Webpage{
+    margin: auto;
+}
+
+
+.footer{
+    display: inline-block;
+    background-color: #1F2937;    
+    text-align: center;
+    height: 5em;
+    color: white;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height: .45em;
+    
+}
+
+
+/* Below is Call to Action styling */
+
 .action{
+    display: flex;
+    justify-content: center;
+    margin: 5em;
+    
+
+}
+
+.calltoaction{
+    display: flex;    
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+    gap: 6em;
+    color: white;
+    padding: 0px;     
+    width: 50em;   
+    height: 6em;
+    border-radius: 10px;    
+}
+
+.SignUpButton{
+    background-color: #3882F6;    
+    border-radius: 4px;
+    color: white;    
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    
+    
+}
+
+/* Below is Quote styling */
+
+
+.quotation{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    margin: 3em 0;
     
 }
 
 .quotediv{
     background-color: #E5E7EB;         
-    width: 80%;    
-    padding: 60px 0;
+    width: 80%;
+    height: 80%;    
+    padding: 50px 0;
     
          
 }
@@ -17,6 +75,7 @@
 .quote{    
     font-style: italic;    
     font-size: 36px;   
+    
     
     
 }
@@ -127,6 +186,8 @@ h1{
     background-color: #3882F6;
     border-radius: 10px;
     color: white;
+    padding: 7px;
+    width: 8em;
 }
 .hero-left{
     width: 40%;
